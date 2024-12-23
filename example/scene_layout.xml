@@ -1,0 +1,25 @@
+<Scene>
+    <!-- Canvas with target and name -->
+    <Canvas name="my_canvas" target="ptTile">
+        <!-- Align examples -->
+        <Align type="center" width="240" height="128"/>
+        <Align type="top-left" width="100" height="50"/>
+        <Align type="bottom-right" width="200" height="100">
+            <!-- Layout example -->
+            <Layout region="__bottom_region">
+                <LayoutItem style="line horizontal" height="60" width="80"/>
+                <LayoutItem style="line horizontal" height="28" width="100" dock="true" />
+            </Layout>
+        </Align>
+
+        <!-- Dock examples -->
+        <Dock side="top" width="100" margin="10"/>
+        <Dock side="general" width="200" height="100" margin="5"/>
+
+        <!-- DockItem examples -->
+        <Layout region="__bottom_region">
+            <LayoutItem style="vertical" height="60" width="80" />
+            <LayoutItem style="vertical" height="28" width="100" />
+        </Layout>
+    </Canvas>
+</Scene>
